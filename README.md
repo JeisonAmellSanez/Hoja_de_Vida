@@ -14,7 +14,7 @@
 
 ## 👨‍💻 Sobre Mí
 
-Estudiante de Ingeniería de Software de 26 años, cursando 7° semestre. Desarrollador Full Stack con experiencia en múltiples tecnologías y frameworks.
+Estudiante de Ingeniería de Software de 26 años, cursando 7° semestre. Desarrollador Junior con experiencia en múltiples tecnologías y frameworks.
 
 ### 🛠️ Stack Tecnológico
 
@@ -61,8 +61,8 @@ CV/
 ### 📱 Aplicaciones Flutter
 Desarrollo de múltiples aplicaciones móviles multiplataforma con interfaces modernas y arquitectura limpia.
 
-### 🌐 Proyectos Web Full Stack
-Sitios web y sistemas con HTML, CSS, Bootstrap, JavaScript, PHP y MySQL.
+### 🌐 Proyectos Web
+Sitios web y sistemas con HTML, CSS, Bootstrap, JavaScript, PHP y MySQL. Enfoque en aprendizaje y mejora continua.
 
 ---
 
