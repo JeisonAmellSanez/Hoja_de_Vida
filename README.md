@@ -1,102 +1,86 @@
-# Mi Hoja de Vida - Página Web
+# 💼 CV - Jeison Arturo Amell Sanez
 
-Una página web moderna y profesional para mostrar tu currículum vitae en línea.
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://jeisonamellsanez.github.io/CV/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## 🚀 Características
+## 🚀 Ver CV Online
 
-- ✨ Diseño moderno y responsive
-- 🎨 Gradientes y animaciones suaves
-- 📱 Compatible con dispositivos móviles
-- 💼 Secciones completas: experiencia, educación, habilidades, proyectos
-- 🎯 Fácil de personalizar
-
-## 📋 Cómo Personalizar
-
-1. **Información Personal**: Edita el archivo `index.html` y reemplaza:
-   - "Tu Nombre Completo"
-   - Tu información de contacto
-   - Enlaces a LinkedIn y GitHub
-
-2. **Experiencia y Educación**: Modifica las secciones con tu información real
-
-3. **Habilidades**: Ajusta los porcentajes de las barras según tu nivel
-
-4. **Colores**: En `styles.css` puedes cambiar el gradiente principal:
-   ```css
-   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-   ```
-
-## 🌐 Cómo Publicar en GitHub Pages
-
-1. **Crear un repositorio en GitHub**:
-   - Ve a GitHub.com e inicia sesión
-   - Haz clic en "New repository"
-   - Nómbralo como: `tu-usuario.github.io` (reemplaza "tu-usuario" con tu nombre de usuario)
-   - Marca como público
-
-2. **Subir los archivos**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Primer commit - Mi hoja de vida"
-   git branch -M main
-   git remote add origin https://github.com/tu-usuario/tu-usuario.github.io.git
-   git push -u origin main
-   ```
-
-3. **Activar GitHub Pages**:
-   - Ve a Settings → Pages
-   - En "Source", selecciona "main" branch
-   - Guarda los cambios
-
-4. **Ver tu sitio**:
-   - Tu página estará disponible en: `https://tu-usuario.github.io`
-
-## 📁 Estructura del Proyecto
-
-```
-resume-website/
-│
-├── index.html      # Página principal con tu información
-├── styles.css      # Estilos y diseño
-├── script.js       # Animaciones e interactividad
-└── README.md       # Este archivo
-```
-
-## 🎨 Personalización Avanzada
-
-### Cambiar la Foto de Perfil
-Reemplaza el ícono de Font Awesome en `index.html` con una imagen:
-```html
-<div class="profile-img">
-    <img src="tu-foto.jpg" alt="Tu Nombre">
-</div>
-```
-
-Y agrega este CSS en `styles.css`:
-```css
-.profile-img img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid white;
-}
-```
-
-### Agregar más secciones
-Puedes duplicar cualquier `<section>` en el HTML y personalizarla.
-
-## 💡 Consejos
-
-- Usa imágenes optimizadas para web (JPG/PNG comprimidos)
-- Mantén la información actualizada
-- Prueba tu sitio en diferentes dispositivos
-- Agrega enlaces a tus proyectos reales en GitHub
-
-## 📧 Contacto
-
-Actualiza tus datos de contacto en el header del archivo HTML.
+**🌐 [jeisonamellsanez.github.io/CV](https://jeisonamellsanez.github.io/CV/)**
 
 ---
 
-¡Buena suerte con tu búsqueda laboral! 🎯
+## 👨‍💻 Sobre Mí
+
+Estudiante de Ingeniería de Software de 26 años, cursando 7° semestre. Desarrollador Full Stack con experiencia en múltiples tecnologías y frameworks.
+
+### 🛠️ Stack Tecnológico
+
+- **Frontend:** HTML5, CSS3, Bootstrap, JavaScript
+- **Backend:** PHP, MySQL
+- **Mobile:** Flutter, Dart
+- **Otros:** Java, iSpring Suite, Git/GitHub
+
+---
+
+## ✨ Características del Sitio
+
+- 🎨 **Diseño Moderno** - Interfaz profesional con gradientes y animaciones
+- 📱 **Responsive** - Optimizado para móviles, tablets y desktop
+- ⚡ **Interactivo** - Efectos hover y animaciones suaves
+- 🎯 **Navegación Fija** - Menú que sigue el scroll
+- 💫 **Animaciones** - Transiciones profesionales en toda la página
+- 🎭 **Bootstrap 5** - Framework moderno para mejor UX
+
+---
+
+## 📂 Estructura del Proyecto
+
+```
+CV/
+│
+├── index.html      # Página principal
+├── styles.css      # Estilos personalizados
+├── script.js       # Interacciones y animaciones
+└── README.md       # Este archivo
+```
+
+---
+
+## 🎓 Educación
+
+- **Ingeniería de Software** - 7° Semestre (En curso)
+- **Ingeniería de Sistemas** - 4 semestres completados
+
+---
+
+## 💼 Proyectos Destacados
+
+### 📱 Aplicaciones Flutter
+Desarrollo de múltiples aplicaciones móviles multiplataforma con interfaces modernas y arquitectura limpia.
+
+### 🌐 Proyectos Web Full Stack
+Sitios web y sistemas con HTML, CSS, Bootstrap, JavaScript, PHP y MySQL.
+
+---
+
+## 📫 Contacto
+
+- 📧 **Email:** amelljeison@gmail.com
+- 📱 **Teléfono:** +57 301 804 9185
+- 💻 **GitHub:** [@JeisonAmellSanez](https://github.com/JeisonAmellSanez)
+
+---
+
+## 🌟 ¿Te gustó este CV?
+
+Si encuentras útil este proyecto, ¡dale una ⭐ al repositorio!
+
+---
+
+<p align="center">
+  <strong>Hecho con ❤️ y Bootstrap</strong><br>
+  © 2025 Jeison Arturo Amell Sanez
+</p>
