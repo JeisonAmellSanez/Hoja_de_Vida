@@ -81,6 +81,5 @@ Si encuentras útil este proyecto, ¡dale una ⭐ al repositorio!
 ---
 
 <p align="center">
-  <strong>Hecho con ❤️ y Bootstrap</strong><br>
   © 2025 Jeison Arturo Amell Sanez
 </p>
