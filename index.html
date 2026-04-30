@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeison Amell - Hoja de Vida</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid px-4">
-            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-code me-2"></i>Jeison Amell</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#"><i class="fas fa-code me-2"></i>Jeison Amell</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,67 +29,59 @@
         </div>
     </nav>
 
-    <!-- Encabezado Hero -->
-    <header class="hero-header text-white text-center py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="profile-img mb-4">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                    <h1 class="display-3 fw-bold mb-3 animate-title">Jeison Arturo Amell Sanez</h1>
-                    <p class="lead mb-4"><i class="fas fa-laptop-code me-2"></i>Estudiante de Ingeniería de Software | Desarrollador Junior</p>
-                    <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
-                        <a href="mailto:amelljeison@gmail.com" class="btn btn-light btn-lg hero-btn pulse-btn">
-                            <i class="fas fa-envelope me-2"></i>Enviar Email
-                        </a>
-                        <a href="tel:+573018049185" class="btn btn-outline-light btn-lg hero-btn">
-                            <i class="fas fa-phone me-2"></i>+57 301 804 9185
-                        </a>
-                        <a href="https://github.com/JeisonAmellSanez" target="_blank" class="btn btn-dark btn-lg hero-btn">
-                            <i class="fab fa-github me-2"></i>Ver GitHub
-                        </a>
-                    </div>
-                </div>
+    <!-- Hero Header -->
+    <header class="hero-header">
+        <div class="container text-center">
+            <div class="profile-img mb-4">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <h1 class="animate-title">Jeison Arturo Amell Sanez</h1>
+            <p class="lead"><i class="fas fa-laptop-code me-2"></i>Estudiante de Ingeniería de Software | Desarrollador Junior</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+                <a href="mailto:amelljeison@gmail.com" class="btn btn-light">
+                    <i class="fas fa-envelope me-2"></i>Email
+                </a>
+                <a href="tel:+573018049185" class="btn btn-outline-light">
+                    <i class="fas fa-phone me-2"></i>+57 301 804 9185
+                </a>
+                <a href="https://github.com/JeisonAmellSanez" target="_blank" class="btn btn-dark">
+                    <i class="fab fa-github me-2"></i>GitHub
+                </a>
             </div>
         </div>
-        <div class="wave-divider"></div>
     </header>
 
-    <div class="container my-5">
+    <!-- Contenido Principal -->
+    <div class="container-main">
         <!-- Sobre Mí -->
-        <section id="sobre-mi" class="section-content mb-5">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card shadow-lg border-0 hover-card">
-                        <div class="card-body p-5">
-                            <h2 class="section-title mb-4"><i class="fas fa-user text-primary me-3"></i>Sobre Mí</h2>
-                            <p class="lead text-muted">
-                                Estudiante de Ingeniería de Software de 26 años, actualmente cursando 7° semestre. 
-                                Persona alegre, enfocada y con gran capacidad para trabajar en equipo. Me caracterizo 
-                                por ser amigable y tener una rápida curva de aprendizaje. Apasionado por el desarrollo 
-                                de aplicaciones móviles y web, con experiencia práctica en múltiples tecnologías y 
-                                frameworks. Busco constantemente ampliar mis conocimientos y enfrentar nuevos desafíos 
-                                en el mundo del desarrollo de software.
-                            </p>
-                            <div class="row mt-4">
-                                <div class="col-md-4 mb-3">
-                                    <div class="info-box p-3 bg-light rounded hover-info-box">
-                                        <i class="fas fa-birthday-cake text-primary mb-2 d-block fs-4 bounce-icon"></i>
-                                        <strong>26 años</strong>
-                                    </div>
+        <section id="sobre-mi" class="section">
+            <div class="container px-4">
+                <h2 class="section-title text-center d-block mx-auto">Sobre Mí</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="lead text-muted mb-4">
+                            Estudiante de Ingeniería de Software de 26 años, actualmente cursando 7° semestre. 
+                            Persona alegre, enfocada y con gran capacidad para trabajar en equipo. Me caracterizo 
+                            por ser amigable y tener una rápida curva de aprendizaje. Apasionado por el desarrollo 
+                            de aplicaciones móviles y web.
+                        </p>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="info-box">
+                                    <i class="fas fa-birthday-cake d-block mb-2"></i>
+                                    <strong>26 años</strong>
                                 </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="info-box p-3 bg-light rounded hover-info-box">
-                                        <i class="fas fa-graduation-cap text-primary mb-2 d-block fs-4 bounce-icon"></i>
-                                        <strong>7° Semestre</strong>
-                                    </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info-box">
+                                    <i class="fas fa-graduation-cap d-block mb-2"></i>
+                                    <strong>7° Semestre</strong>
                                 </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="info-box p-3 bg-light rounded hover-info-box">
-                                        <i class="fas fa-map-marker-alt text-primary mb-2 d-block fs-4 bounce-icon"></i>
-                                        <strong>Colombia</strong>
-                                    </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info-box">
+                                    <i class="fas fa-map-marker-alt d-block mb-2"></i>
+                                    <strong>Colombia</strong>
                                 </div>
                             </div>
                         </div>
@@ -101,51 +90,53 @@
             </div>
         </section>
 
-        <!-- Experiencia y Proyectos -->
-        <section id="experiencia" class="section-content mb-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-briefcase text-primary me-3"></i>Experiencia y Proyectos</h2>
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="card h-100 shadow border-0 hover-card">
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="icon-box bg-primary text-white rounded-circle me-3">
-                                    <i class="fab fa-flutter"></i>
+        <!-- Experiencia -->
+        <section id="experiencia" class="section bg-light">
+            <div class="container px-4">
+                <h2 class="section-title text-center d-block mx-auto">Experiencia y Proyectos</h2>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-box bg-gradient-primary text-white">
+                                        <i class="fab fa-flutter"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h5 class="mb-0">Desarrollador Flutter</h5>
+                                        <small class="text-muted">Proyectos Personales</small>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h4 class="mb-0">Desarrollador de Aplicaciones Flutter</h4>
-                                    <p class="text-muted mb-0 small">Proyectos Personales</p>
-                                </div>
+                                <p class="text-muted mb-2"><small><i class="far fa-calendar-alt me-1"></i>2023 - Presente</small></p>
+                                <ul class="mb-0">
+                                    <li>Desarrollo de apps móviles en Flutter</li>
+                                    <li>Interfaces responsivas y atractivas</li>
+                                    <li>Control de versiones en GitHub</li>
+                                    <li>Buenas prácticas de programación</li>
+                                </ul>
                             </div>
-                            <p class="text-primary mb-2"><small><i class="far fa-calendar-alt me-1"></i>2023 - Presente</small></p>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Desarrollo de múltiples aplicaciones móviles en Flutter</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Implementación de interfaces responsivas y atractivas</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Gestión de proyectos en GitHub con control de versiones</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Aplicación de buenas prácticas de programación y arquitectura limpia</li>
-                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card h-100 shadow border-0 hover-card">
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="icon-box bg-success text-white rounded-circle me-3">
-                                    <i class="fas fa-code"></i>
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-box bg-gradient-success text-white">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h5 class="mb-0">Desarrollo Web Full Stack</h5>
+                                        <small class="text-muted">Proyectos Académicos</small>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h4 class="mb-0">Desarrollo Web Full Stack</h4>
-                                    <p class="text-muted mb-0 small">Proyectos Académicos y Personales</p>
-                                </div>
+                                <p class="text-muted mb-2"><small><i class="far fa-calendar-alt me-1"></i>2021 - Presente</small></p>
+                                <ul class="mb-0">
+                                    <li>HTML, CSS, Bootstrap, JavaScript</li>
+                                    <li>PHP y MySQL</li>
+                                    <li>Java y Dart</li>
+                                    <li>Trabajo en equipo</li>
+                                </ul>
                             </div>
-                            <p class="text-success mb-2"><small><i class="far fa-calendar-alt me-1"></i>2021 - Presente</small></p>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Desarrollo de sitios web con HTML, CSS, Bootstrap y JavaScript</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Implementación de sistemas con PHP y MySQL</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Creación de aplicaciones Java y Dart</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Trabajo colaborativo en equipos de desarrollo</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -153,30 +144,32 @@
         </section>
 
         <!-- Educación -->
-        <section id="educacion" class="section-content mb-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-graduation-cap text-primary me-3"></i>Educación</h2>
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="card shadow border-0 hover-card h-100">
-                        <div class="card-body p-4">
-                            <div class="icon-box bg-primary text-white rounded mb-3">
-                                <i class="fas fa-university"></i>
+        <section id="educacion" class="section">
+            <div class="container px-4">
+                <h2 class="section-title text-center d-block mx-auto">Educación</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="icon-box bg-primary text-white mb-3">
+                                    <i class="fas fa-university"></i>
+                                </div>
+                                <h5>Ingeniería de Software</h5>
+                                <p class="text-primary fw-bold mb-1">Universidad - 7° Semestre</p>
+                                <p class="text-muted mb-0"><small><i class="far fa-calendar-alt me-2"></i>2023 - Presente</small></p>
                             </div>
-                            <h4>Ingeniería de Software</h4>
-                            <p class="text-primary fw-bold mb-2">Universidad - 7° Semestre</p>
-                            <p class="text-muted mb-0"><i class="far fa-calendar-alt me-2"></i>2023 - Presente</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card shadow border-0 hover-card h-100">
-                        <div class="card-body p-4">
-                            <div class="icon-box bg-info text-white rounded mb-3">
-                                <i class="fas fa-laptop-code"></i>
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="icon-box bg-info text-white mb-3">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h5>Ingeniería de Sistemas</h5>
+                                <p class="text-info fw-bold mb-1">Universidad - 4 Semestres</p>
+                                <p class="text-muted mb-0"><small><i class="far fa-calendar-alt me-2"></i>2017 - 2019</small></p>
                             </div>
-                            <h4>Ingeniería de Sistemas</h4>
-                            <p class="text-info fw-bold mb-2">Universidad - Completado 4 semestres</p>
-                            <p class="text-muted mb-0"><i class="far fa-calendar-alt me-2"></i>2017 - 2019</p>
                         </div>
                     </div>
                 </div>
@@ -184,88 +177,75 @@
         </section>
 
         <!-- Habilidades -->
-        <section id="habilidades" class="section-content mb-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-code text-primary me-3"></i>Habilidades Técnicas</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div class="card shadow-lg border-0">
-                        <div class="card-body p-5">
-                            <div class="row g-4">
-                                <div class="col-md-6">
-                                    <div class="skill-item mb-4">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="fw-bold"><i class="fab fa-flutter text-primary me-2"></i>Flutter & Dart</span>
-                                            <span class="badge bg-primary">85%</span>
-                                        </div>
-                                        <div class="progress" style="height: 12px;">
-                                            <div class="progress-bar bg-gradient-primary" role="progressbar" style="width: 85%"></div>
-                                        </div>
+        <section id="habilidades" class="section bg-light">
+            <div class="container px-4">
+                <h2 class="section-title text-center d-block mx-auto">Habilidades Técnicas</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="skill-item">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="fw-bold"><i class="fab fa-flutter text-primary me-2"></i>Flutter & Dart</span>
+                                        <span class="badge bg-primary">85%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="skill-item mb-4">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="fw-bold"><i class="fab fa-html5 text-danger me-2"></i>HTML/CSS/Bootstrap</span>
-                                            <span class="badge bg-danger">90%</span>
-                                        </div>
-                                        <div class="progress" style="height: 12px;">
-                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"></div>
-                                        </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="skill-item">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="fw-bold"><i class="fab fa-html5 text-danger me-2"></i>HTML/CSS/Bootstrap</span>
+                                        <span class="badge bg-danger">90%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="skill-item mb-4">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="fw-bold"><i class="fab fa-js text-warning me-2"></i>JavaScript</span>
-                                            <span class="badge bg-warning">80%</span>
-                                        </div>
-                                        <div class="progress" style="height: 12px;">
-                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 80%"></div>
-                                        </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="skill-item">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="fw-bold"><i class="fab fa-js text-warning me-2"></i>JavaScript</span>
+                                        <span class="badge bg-warning">80%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 80%"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="skill-item mb-4">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="fw-bold"><i class="fas fa-database text-info me-2"></i>PHP & MySQL</span>
-                                            <span class="badge bg-info">75%</span>
-                                        </div>
-                                        <div class="progress" style="height: 12px;">
-                                            <div class="progress-bar bg-info" role="progressbar" style="width: 75%"></div>
-                                        </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="skill-item">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="fw-bold"><i class="fas fa-database text-info me-2"></i>PHP & MySQL</span>
+                                        <span class="badge bg-info">75%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 75%"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="skill-item mb-4">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="fw-bold"><i class="fab fa-java text-danger me-2"></i>Java</span>
-                                            <span class="badge bg-danger">75%</span>
-                                        </div>
-                                        <div class="progress" style="height: 12px;">
-                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%"></div>
-                                        </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="skill-item">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="fw-bold"><i class="fab fa-java text-danger me-2"></i>Java</span>
+                                        <span class="badge bg-danger">75%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="skill-item mb-4">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="fw-bold"><i class="fas fa-chalkboard-teacher text-secondary me-2"></i>iSpring Suite</span>
-                                            <span class="badge bg-secondary">70%</span>
-                                        </div>
-                                        <div class="progress" style="height: 12px;">
-                                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%"></div>
-                                        </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="skill-item">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="fw-bold"><i class="fab fa-github text-dark me-2"></i>Git/GitHub</span>
+                                        <span class="badge bg-dark">85%</span>
                                     </div>
-                                </div>
-                                <div class="col-md-6 mx-auto">
-                                    <div class="skill-item mb-4">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="fw-bold"><i class="fab fa-github text-dark me-2"></i>Git/GitHub</span>
-                                            <span class="badge bg-dark">85%</span>
-                                        </div>
-                                        <div class="progress" style="height: 12px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 85%"></div>
-                                        </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 85%"></div>
                                     </div>
                                 </div>
                             </div>
@@ -276,42 +256,42 @@
         </section>
 
         <!-- Proyectos -->
-        <section id="proyectos" class="section-content mb-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-project-diagram text-primary me-3"></i>Proyectos Destacados</h2>
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="card shadow-lg border-0 hover-card h-100">
-                        <div class="card-body p-4">
-                            <div class="icon-box bg-gradient-primary text-white rounded-circle mb-3">
-                                <i class="fab fa-flutter"></i>
+        <section id="proyectos" class="section">
+            <div class="container px-4">
+                <h2 class="section-title text-center d-block mx-auto">Proyectos</h2>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="icon-box bg-gradient-primary text-white mb-3">
+                                    <i class="fab fa-flutter"></i>
+                                </div>
+                                <h5>Aplicaciones Flutter</h5>
+                                <p class="text-muted mb-3">
+                                    Desarrollo de apps móviles multiplataforma. Interfaces modernas, 
+                                    gestión de estado, consumo de APIs y almacenamiento local.
+                                </p>
+                                <a href="https://github.com/JeisonAmellSanez" target="_blank" class="project-btn">
+                                    <i class="fab fa-github me-2"></i>Ver en GitHub
+                                </a>
                             </div>
-                            <h4 class="mb-3">Aplicaciones Flutter</h4>
-                            <p class="text-muted">
-                                Desarrollo de múltiples aplicaciones móviles multiplataforma utilizando Flutter y Dart. 
-                                Implementación de interfaces modernas, gestión de estado, consumo de APIs y almacenamiento local. 
-                                Proyectos que demuestran capacidades en desarrollo móvil y arquitectura de aplicaciones.
-                            </p>
-                            <a href="https://github.com/JeisonAmellSanez" target="_blank" class="btn btn-primary btn-sm mt-3 project-btn">
-                                <i class="fab fa-github me-2"></i>Ver en GitHub
-                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card shadow-lg border-0 hover-card h-100">
-                        <div class="card-body p-4">
-                            <div class="icon-box bg-gradient-success text-white rounded-circle mb-3">
-                                <i class="fas fa-globe"></i>
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="icon-box bg-gradient-success text-white mb-3">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <h5>Proyectos Web</h5>
+                                <p class="text-muted mb-3">
+                                    Sitios web y sistemas con HTML, CSS, Bootstrap, JavaScript, 
+                                    PHP y MySQL. Interfaces responsivas y funcionalidades backend.
+                                </p>
+                                <a href="https://github.com/JeisonAmellSanez" target="_blank" class="project-btn">
+                                    <i class="fab fa-github me-2"></i>Ver Repositorios
+                                </a>
                             </div>
-                            <h4 class="mb-3">Proyectos Web</h4>
-                            <p class="text-muted">
-                                Desarrollo de sitios web y sistemas utilizando HTML, CSS, Bootstrap, JavaScript, PHP y MySQL. 
-                                Creación de interfaces responsivas, implementación de bases de datos y funcionalidades backend. 
-                                Aprendizaje continuo en desarrollo frontend y backend.
-                            </p>
-                            <a href="https://github.com/JeisonAmellSanez" target="_blank" class="btn btn-success btn-sm mt-3 project-btn">
-                                <i class="fab fa-github me-2"></i>Ver Repositorios
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -319,30 +299,24 @@
         </section>
 
         <!-- Idiomas -->
-        <section class="section-content mb-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-language text-primary me-3"></i>Idiomas</h2>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="card shadow border-0">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <div class="d-flex align-items-center justify-content-between p-3 bg-light rounded">
-                                        <div>
-                                            <i class="fas fa-flag text-danger me-2 fs-4"></i>
-                                            <strong>Español</strong>
-                                        </div>
-                                        <span class="badge bg-success">Nativo</span>
-                                    </div>
+        <section class="section bg-light">
+            <div class="container px-4">
+                <h2 class="section-title text-center d-block mx-auto">Idiomas</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="info-box">
+                                    <i class="fas fa-flag text-danger me-2 fs-5"></i>
+                                    <strong>Español</strong>
+                                    <span class="badge bg-success ms-2">Nativo</span>
                                 </div>
-                                <div class="col-md-6 mb-3">
-                                    <div class="d-flex align-items-center justify-content-between p-3 bg-light rounded">
-                                        <div>
-                                            <i class="fas fa-flag text-primary me-2 fs-4"></i>
-                                            <strong>Inglés</strong>
-                                        </div>
-                                        <span class="badge bg-info">Intermedio</span>
-                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box">
+                                    <i class="fas fa-flag text-primary me-2 fs-5"></i>
+                                    <strong>Inglés</strong>
+                                    <span class="badge bg-info ms-2">Intermedio</span>
                                 </div>
                             </div>
                         </div>
@@ -352,21 +326,23 @@
         </section>
 
         <!-- Contacto -->
-        <section id="contacto" class="section-content mb-5">
-            <div class="card shadow-lg border-0 bg-dark text-white">
-                <div class="card-body p-5 text-center">
-                    <h2 class="mb-4"><i class="fas fa-envelope-open-text me-3"></i>¿Interesado en trabajar juntos?</h2>
-                    <p class="lead mb-4">Estoy disponible para proyectos freelance y oportunidades laborales</p>
-                    <div class="d-flex flex-wrap justify-content-center gap-3">
-                        <a href="mailto:amelljeison@gmail.com" class="btn btn-light btn-lg contact-btn pulse-btn">
-                            <i class="fas fa-envelope me-2"></i>Enviar Email
-                        </a>
-                        <a href="tel:+573018049185" class="btn btn-outline-light btn-lg contact-btn">
-                            <i class="fas fa-phone me-2"></i>+57 301 804 9185
-                        </a>
-                        <a href="https://github.com/JeisonAmellSanez" target="_blank" class="btn btn-outline-light btn-lg contact-btn">
-                            <i class="fab fa-github me-2"></i>Ver GitHub
-                        </a>
+        <section id="contacto" class="section">
+            <div class="container px-4">
+                <div class="card bg-dark text-white text-center">
+                    <div class="card-body p-5">
+                        <h2 class="mb-3"><i class="fas fa-envelope-open-text me-2"></i>¿Interesado en trabajar juntos?</h2>
+                        <p class="mb-4">Disponible para proyectos freelance y oportunidades laborales</p>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <a href="mailto:amelljeison@gmail.com" class="btn btn-light">
+                                <i class="fas fa-envelope me-2"></i>Email
+                            </a>
+                            <a href="tel:+573018049185" class="btn btn-outline-light">
+                                <i class="fas fa-phone me-2"></i>+57 301 804 9185
+                            </a>
+                            <a href="https://github.com/JeisonAmellSanez" target="_blank" class="btn btn-outline-light">
+                                <i class="fab fa-github me-2"></i>GitHub
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -374,24 +350,18 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer bg-dark text-black text-center py-5">
+    <footer class="footer">
         <div class="container">
-            <p class="mb-2 fs-5 fw-bold">&copy; 2025 Jeison Arturo Amell Sanez</p>
-            <p class="text-black-50 mb-0">Todos los derechos reservados</p>
-            <div class="mt-3">
-                <a href="https://github.com/JeisonAmell" target="_blank" class="text-black me-3 fs-4 footer-icon">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="mailto:amelljeison@gmail.com" class="text-black fs-4 footer-icon">
-                    <i class="fas fa-envelope"></i>
-                </a>
+            <p class="mb-2 fw-bold">&copy; <span id="year"></span> Jeison Arturo Amell Sanez</p>
+            <p class="small mb-3">Todos los derechos reservados</p>
+            <div>
+                <a href="https://github.com/JeisonAmell" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:amelljeison@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
     <script src="script.js"></script>
 </body>
 </html>
