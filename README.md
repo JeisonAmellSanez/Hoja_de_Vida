@@ -8,7 +8,7 @@
 
 ## 🚀 Ver CV Online
 
-**🌐 [jeisonamellsanez.github.io/CV](https://jeisonamellsanez.github.io/CV/)**
+**🌐 [jeisonamellsanez.github.io/CV](https://jeisonamellsanez.github.io/Hoja_de_Vida/)**
 
 ---
 
